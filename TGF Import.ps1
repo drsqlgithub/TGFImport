@@ -20,8 +20,6 @@ $VerboseCountAnnounce = 100
 
 #########################################################################################
 
-
-
 $Files = Get-ChildItem $directory -Filter $Filter
 
 "Processing directory: $directory for '.TGF' files"
